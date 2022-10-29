@@ -1,0 +1,97 @@
+10/30/2022, 00:07:34 | pyUltLogs [INFO] : 
+                    -----------------------------------
+                            Starting Deployment
+                    -----------------------------------
+    
+10/30/2022, 00:07:34 | pyUltLogs [INFO] : Python version - 3.10.4
+10/30/2022, 00:07:34 | pyUltLogs [INFO] : py-Ultroid Version - 2022.08.30
+10/30/2022, 00:07:34 | pyUltLogs [INFO] : Telethon Version - 1.25.1 [Layer: 146]
+10/30/2022, 00:07:34 | pyUltLogs [INFO] : Ultroid Version - 0.7.1 [local]
+10/30/2022, 00:07:34 | pyUltLogs [ERROR] : 'safety' package not found!
+10/30/2022, 00:07:49 | pyUltLogs [INFO] : Connecting to Redis...
+10/30/2022, 00:07:49 | pyUltLogs [INFO] : Connected to Redis Successfully!
+10/30/2022, 00:07:49 | pyUltLogs [INFO] : PIL not installed!
+10/30/2022, 00:07:52 | pyUltLogs [INFO] : Trying to login.
+10/30/2022, 00:07:52 | pyUltLogs [INFO] : Logged in as Uta ­­­­­­
+10/30/2022, 00:07:52 | pyUltLogs [INFO] : Trying to login.
+10/30/2022, 00:07:56 | Telethon.client.users [INFO] : Phone migrated to 5
+10/30/2022, 00:07:56 | Telethon.client.telegrambaseclient [INFO] : Reconnecting to new data center 5
+10/30/2022, 00:07:58 | pyUltLogs [INFO] : Logged in as @Rynnrobot
+10/30/2022, 00:08:04 | pyUltLogs [INFO] : Initialising...
+10/30/2022, 00:08:07 | pyUltLogs [INFO] : • Installing Official Plugins || Count : 80 •
+10/30/2022, 00:08:08 | pyUltLogs [INFO] : 'Telegraph' is not Installed!
+10/30/2022, 00:08:08 | pyUltLogs [INFO] : 'Telegraph' is not Installed!
+10/30/2022, 00:08:08 | pyUltLogs [ERROR] : plugins.afk: 'telegraph' not installed!
+10/30/2022, 00:08:11 | pyUltLogs [ERROR] : pyUltroid - Official - ERROR - plugins.bot
+10/30/2022, 00:08:11 | pyUltLogs [ERROR] : cannot import name 'call_back' from 'plugins' (C:\Users\faris\Desktop\Ultroid\plugins\__init__.py)
+Traceback (most recent call last):
+  File "C:\Users\faris\Desktop\Ultroid\pyUltroid\loader.py", line 59, in load
+    modl = func(plugin)
+  File "C:\Users\faris\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\faris\Desktop\Ultroid\plugins\bot.py", line 36, in <module>
+    from . import (
+ImportError: cannot import name 'call_back' from 'plugins' (C:\Users\faris\Desktop\Ultroid\plugins\__init__.py)
+10/30/2022, 00:08:11 | pyUltLogs [ERROR] : plugins.button: 'telegraph' not installed!
+10/30/2022, 00:08:12 | pyUltLogs [INFO] : C:\Users\faris\Desktop\Ultroid\plugins\converter.py: PIL  not Installed.
+10/30/2022, 00:08:12 | pyUltLogs [ERROR] : plugins.converter: 'telegraph' not installed!
+10/30/2022, 00:08:12 | pyUltLogs [ERROR] : plugins.filter: 'telegraph' not installed!
+10/30/2022, 00:08:12 | pyUltLogs [ERROR] : plugins.gdrive: 'oauth2client' not installed!
+10/30/2022, 00:08:12 | pyUltLogs [ERROR] : plugins.greetings: 'telegraph' not installed!
+10/30/2022, 00:08:12 | pyUltLogs [INFO] : C:\Users\faris\Desktop\Ultroid\plugins\imagetools.py: PIL  not Installed.
+10/30/2022, 00:08:12 | pyUltLogs [ERROR] : plugins.imagetools: 'telegraph' not installed!
+10/30/2022, 00:08:13 | pyUltLogs [ERROR] : nightmode: 'apscheduler' not Installed!
+10/30/2022, 00:08:13 | pyUltLogs [ERROR] : plugins.notes: 'telegraph' not installed!
+10/30/2022, 00:08:13 | pyUltLogs [ERROR] : nsfwfilter: 'Profanitydetector' not installed!
+10/30/2022, 00:08:13 | pyUltLogs [ERROR] : pyUltroid - Official - ERROR - plugins.pdftools
+10/30/2022, 00:08:13 | pyUltLogs [ERROR] : name 'LOGS' is not defined
+Traceback (most recent call last):
+  File "C:\Users\faris\Desktop\Ultroid\plugins\pdftools.py", line 36, in <module>
+    from PIL import Image
+ModuleNotFoundError: No module named 'PIL'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\faris\Desktop\Ultroid\pyUltroid\loader.py", line 59, in load
+    modl = func(plugin)
+  File "C:\Users\faris\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\faris\Desktop\Ultroid\plugins\pdftools.py", line 39, in <module>
+    LOGS.info(f"{__file__}: PIL  not Installed.")
+NameError: name 'LOGS' is not defined
+10/30/2022, 00:08:14 | pyUltLogs [ERROR] : plugins.qrcode: 'qrcode' not installed!
+10/30/2022, 00:08:14 | pyUltLogs [ERROR] : plugins.resize: 'PIL' not installed!
+10/30/2022, 00:08:14 | pyUltLogs [ERROR] : plugins.snips: 'telegraph' not installed!
+10/30/2022, 00:08:14 | pyUltLogs [ERROR] : plugins.specialtools: 'pytz' not installed!
+10/30/2022, 00:08:15 | pyUltLogs [ERROR] : plugins.writer: 'htmlwebshot' not installed!
+10/30/2022, 00:08:15 | pyUltLogs [ERROR] : plugins.youtube: 'yt_dlp' not installed!
+10/30/2022, 00:08:15 | pyUltLogs [ERROR] : assistant.callbackstuffs: 'telegraph' not installed!
+10/30/2022, 00:08:15 | pyUltLogs [ERROR] : 'akinator' not installed.
+10/30/2022, 00:08:16 | pyUltLogs [ERROR] : assistant.start: 'pytz' not installed!
+10/30/2022, 00:08:16 | pyUltLogs [ERROR] : assistant.ytdl: 'yt_dlp' not installed!
+10/30/2022, 00:08:22 | pyUltLogs [INFO] : Took 47s to start •ULTROID•
+10/30/2022, 00:08:22 | pyUltLogs [INFO] : 
+            ----------------------------------------------------------------------
+                Ultroid has been deployed! Visit @TheUltroid for updates!!
+            ----------------------------------------------------------------------
+    
+10/30/2022, 00:10:34 | pyUltLogs [ERROR] : name 'KEEP_SAFE' is not defined
+Traceback (most recent call last):
+  File "C:\Users\faris\Desktop\Ultroid\pyUltroid\_misc\_decorators.py", line 113, in wrapp
+    await dec(ult)
+  File "C:\Users\faris\Desktop\Ultroid\plugins\devtools.py", line 196, in _
+    if any(item in cmd for item in KEEP_SAFE().All) and (
+NameError: name 'KEEP_SAFE' is not defined
